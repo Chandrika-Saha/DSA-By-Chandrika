@@ -1,12 +1,12 @@
-# # String reverse
-# string = input("Enter a string: ")
-# print(f"reversed: {string[::-1]}")
-#
-# # Check if string is palindrome
-# string = input("Enter a string to check palindrome: ")
-# string = string.lower().replace(" ", "")
-# result = "The string is palindrom" if string == string[::-1] else "The string is not a palindrome"
-# print(result)
+# String reverse
+string = input("Enter a string: ")
+print(f"reversed: {string[::-1]}")
+
+# Check if string is palindrome
+string = input("Enter a string to check palindrome: ")
+string = string.lower().replace(" ", "")
+result = "The string is palindrom" if string == string[::-1] else "The string is not a palindrome"
+print(result)
 
 # Find the max min in a list
 lst = [9, 2, 4, 5, 5, 5, 3, 2]

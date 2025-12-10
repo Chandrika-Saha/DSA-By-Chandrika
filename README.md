@@ -1,7 +1,7 @@
 # DSA-By-Chandrika
 
 A curated collection of data structures and algorithms practice problems, organized by difficulty.  
-This repository serves as my structured preparation for coding interviews and assessments such as IBM HackerRank challenges.
+This repository serves as my structured preparation for coding interviews and assessments.
 
 ---
 
