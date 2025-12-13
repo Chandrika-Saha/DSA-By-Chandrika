@@ -74,3 +74,56 @@ Elements that “fall off” the end should wrap around to the front.
 
 Example:
 Rotating [1, 2, 3, 4, 5] by k = 2 → [4, 5, 1, 2, 3]
+
+## Strings — Additional Core Problems
+
+Brief explanations only.
+
+---
+
+### 1. Longest Common Prefix
+
+Given a list of strings, find the longest starting substring (prefix) that all strings share.
+
+Example idea:
+["flower", "flow", "flight"] → "fl"
+
+---
+
+### 2. Compress a String
+
+Given a string, compress it by counting consecutive repeated characters.
+
+Example idea:
+"aabcc" → "a2b1c2"
+
+This is similar to simple run-length encoding.
+
+---
+
+### 3. Count Vowels and Consonants
+
+Given a string, count:
+- the number of vowels (a, e, i, o, u),
+- and the number of consonants (all other alphabet letters).
+
+Ignore non-letter characters if necessary.
+
+---
+
+### 4. Check Balanced Parentheses
+
+Given a string containing parentheses (such as (), [], {}), determine whether they are properly balanced.
+
+Balanced means:
+- every opening symbol has a matching closing symbol,
+- and they close in the correct nested order.
+
+---
+
+### 5. Longest Substring Without Repeating Characters (medium)
+
+Given a string, find the longest continuous substring that contains no repeated characters.
+
+Example idea:
+"abcabcbb" → "abc" (length 3)
