@@ -127,3 +127,61 @@ Given a string, find the longest continuous substring that contains no repeated 
 
 Example idea:
 "abcabcbb" → "abc" (length 3)
+
+### 1. First Non-Repeating Character
+
+Given a string, find the first character that does **not** repeat anywhere else in the string.
+
+Example:
+- "swiss" → "w"
+
+Use a hash map to count frequencies, then scan again to find the first char with count == 1.
+
+
+### 2. Find Duplicates in an Array
+
+Given an array, return all values that appear **more than once**.
+
+Example:
+- [1,2,3,1,5,2] → duplicates: [1,2]
+
+A hash set or hash map helps detect repeated elements efficiently.
+
+
+### 3. Intersection of Two Lists
+
+Given two lists, return the elements that appear in **both**.
+
+Example:
+- A = [1,2,3,4]
+- B = [2,4,6]
+- Intersection = [2,4]
+
+Use a set for fast membership checking.
+
+
+### 4. Group Anagrams (medium)
+
+Given a list of words, group together all words that are **anagrams** of each other.
+
+Example:
+Input: ["eat","tea","tan","ate","nat","bat"]  
+Output:
+[
+  ["eat","tea","ate"],
+  ["tan","nat"],
+  ["bat"]
+]
+
+Anagrams share the same sorted characters, so they map to the same key in a hash map.
+
+
+### 5. Word Frequency Counter
+
+Given a block of text, count how many times each **word** appears.
+
+Example:
+- "cat dog cat mouse" → {cat: 2, dog: 1, mouse: 1}
+
+A hash map is ideal for counting occurrences.
+
