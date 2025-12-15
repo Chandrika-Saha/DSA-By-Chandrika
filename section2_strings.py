@@ -110,7 +110,23 @@ def longest_substr(s):
 
     for right, c in enumerate(s):
 
+        while c in seen:
+            seen.remove(s[left])
+            left += 1
+
+        seen.add(c)
+
+        curr_len = right - left + 1
+        if best_len < curr_len:
+            best_len = curr_len
+            best_start = left
+
+    return s[best_start : best_start+best_len]
+
 
 print("\nSolution for the longest substring:")
-print(longest_substr("abcabcbb"))
+print(longest_substr("abcbde"))  # Expected: "cbde" (length 4)
+print(longest_substr("abcabcbb")) # Expected: "abc" (length 3)
+print(longest_substr("bbbbb"))    # Expected: "b"
+print(longest_substr("pwwkew"))   # Expected: "wke"
 
