@@ -77,8 +77,6 @@ Rotating [1, 2, 3, 4, 5] by k = 2 → [4, 5, 1, 2, 3]
 
 ## Strings — Additional Core Problems
 
-Brief explanations only.
-
 ---
 
 ### 1. Longest Common Prefix
@@ -127,6 +125,8 @@ Given a string, find the longest continuous substring that contains no repeated 
 
 Example idea:
 "abcabcbb" → "abc" (length 3)
+
+## HashMaps/Sets — Additional Core Problems
 
 ### 1. First Non-Repeating Character
 
