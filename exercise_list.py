@@ -5,6 +5,7 @@
 # append, insert(index, value), pop(index) using slicing (don’t call the built-ins).
 #
 
+# Small Adjustments
 class ListMine:
     def __init__(self):
         self.lst = []
